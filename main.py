@@ -1,3 +1,6 @@
+import sys, os
+sys.path.append(os.path.dirname(__file__))
+
 from pyrogram.errors.exceptions.bad_request_400 import StickerEmojiInvalid 
 import requests
 import m3u8
